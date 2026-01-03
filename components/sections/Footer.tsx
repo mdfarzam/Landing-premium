@@ -72,7 +72,7 @@ function FooterColumn({
 }) {
   return (
     <div className="space-y-4">
-      <h4 className="text-xs font-semibold tracking-widest text-gray-400">
+      <h4 className="text-xs font-medium tracking-widest text-gray-400">
         {title}
       </h4>
       <ul className="space-y-3">{children}</ul>

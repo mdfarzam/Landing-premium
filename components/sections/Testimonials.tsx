@@ -40,7 +40,7 @@ export default function CustomerTestimonials() {
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-400 to-pink-500"></div>
                   <div>
-                    <div className="text-sm font-semibold text-gray-900">
+                    <div className="text-sm font-medium text-gray-900">
                       Khushiyant C.
                     </div>
                     <div className="text-xs text-gray-500">Founder</div>
@@ -73,7 +73,7 @@ export default function CustomerTestimonials() {
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-400 to-cyan-500"></div>
                   <div>
-                    <div className="text-sm font-semibold text-gray-900">
+                    <div className="text-sm font-medium text-gray-900">
                       Adeapa P.
                     </div>
                     <div className="text-xs text-gray-500">Founder</div>
@@ -106,7 +106,7 @@ export default function CustomerTestimonials() {
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-400 to-cyan-500"></div>
                   <div>
-                    <div className="text-sm font-semibold text-gray-900">
+                    <div className="text-sm font-medium text-gray-900">
                       Adeapa P.
                     </div>
                     <div className="text-xs text-gray-500">Founder</div>
@@ -139,7 +139,7 @@ export default function CustomerTestimonials() {
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-400 to-cyan-500"></div>
                   <div>
-                    <div className="text-sm font-semibold text-gray-900">
+                    <div className="text-sm font-medium text-gray-900">
                       Adeapa P.
                     </div>
                     <div className="text-xs text-gray-500">Founder</div>
@@ -172,7 +172,7 @@ export default function CustomerTestimonials() {
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-400 to-cyan-500"></div>
                   <div>
-                    <div className="text-sm font-semibold text-gray-900">
+                    <div className="text-sm font-medium text-gray-900">
                       Adeapa P.
                     </div>
                     <div className="text-xs text-gray-500">Founder</div>
@@ -207,7 +207,7 @@ export default function CustomerTestimonials() {
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-br from-green-400 to-teal-500"></div>
                   <div>
-                    <div className="text-sm font-semibold text-gray-900">
+                    <div className="text-sm font-medium text-gray-900">
                       Alessandro T.
                     </div>
                     <div className="text-xs text-gray-500">Founder</div>

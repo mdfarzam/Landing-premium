@@ -12,14 +12,14 @@ import {
 
 export default function Features() {
   return (
-    <div className="min-h-screen  bg-white py-12 px-4">
+    <div className="min-h-screen font- bg-white py-12 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-10">
           <p className="text-xs text-gray-500 uppercase tracking-wider mb-3">
             PLATFORM FEATURES
           </p>
-          <h2 className="text-5xl font-sans font-semibold text-gray-900">
+          <h2 className="text-5xl font-medium text-gray-900">
             Everything You Need
             <br />
             to Build Better Products
@@ -29,7 +29,7 @@ export default function Features() {
         {/* Features Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {/* Feature 1: App Store Intelligence */}
-          <div className="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
+          <div className="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow flex flex-col h-full">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-9 h-9 bg-black rounded-lg flex items-center justify-center">
                 <AppWindow className="w-5 h-5 text-white" />
@@ -47,14 +47,14 @@ export default function Features() {
               thousands of applications.
             </p>
 
-            <button className="flex items-center space-x-1.5 text-sm text-gray-900 font-medium hover:gap-2.5 transition-all group">
+            <button className="flex items-center space-x-1.5 text-sm text-gray-900 font-medium hover:gap-2.5 transition-all group mt-auto">
               <span>Explore App Store Analysis</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>
           </div>
 
           {/* Feature 2: G2, Upwork & Capterra Analysis */}
-          <div className="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
+          <div className="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow flex flex-col h-full">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-9 h-9 bg-black rounded-lg flex items-center justify-center">
                 <PieChart className="w-5 h-5 text-white" />
@@ -75,14 +75,14 @@ export default function Features() {
               reviews, Upwork project demands, and Capterra insights.
             </p>
 
-            <button className="flex items-center space-x-1.5 text-sm text-gray-900 font-medium hover:gap-2.5 transition-all group">
+            <button className="flex items-center space-x-1.5 text-sm text-gray-900 font-medium hover:gap-2.5 transition-all group mt-auto">
               <span>View Market Analysis</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
             </button>
           </div>
 
           {/* Feature 3: Reddit Research Analysis */}
-          <div className="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
+          <div className="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow flex flex-col h-full">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-9 h-9 bg-black rounded-lg flex items-center justify-center">
                 <MessageSquare className="w-5 h-5 text-white" />
@@ -97,7 +97,7 @@ export default function Features() {
               product strategies.
             </p>
 
-            <button className="flex items-center space-x-1.5 text-sm text-gray-900 font-medium hover:gap-2.5 transition-all group">
+            <button className="flex items-center space-x-1.5 text-sm text-gray-900 font-medium hover:gap-2.5 transition-all group mt-auto">
               <span>See Analysis</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>

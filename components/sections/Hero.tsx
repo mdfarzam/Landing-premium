@@ -7,7 +7,7 @@ export default function Hero() {
       <nav className="flex items-center justify-between px-4 py-3 max-w-6xl mx-auto">
         <div className="flex items-center space-x-1.5">
           <div className="w-6 h-6 bg-gradient-to-br from-orange-400 to-pink-500 rounded-lg transform rotate-12"></div>
-          <span className="text-base font-bold text-gray-900">BigIdeasDB</span>
+          <span className="text-base font-bold text-gray-900">MarketVault</span>
         </div>
 
         <div className="hidden md:flex items-center space-x-6">
@@ -46,7 +46,7 @@ export default function Hero() {
 
       {/* Hero Section */}
       <main className="max-w-4xl mx-auto px-4 py-10 mt-14 text-center">
-        <h1 className="text-5xl font-sans font-semibold text-gray-900 mb-6 leading-tight">
+        <h1 className="text-5xl font-sem text-gray-900 mb-6 leading-tight">
           Find Proven Problems.
           <br />
           Build Your Next

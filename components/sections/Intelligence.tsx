@@ -10,14 +10,14 @@ export default function IntelligenceSection() {
   ];
 
   return (
-    <div className="bg-white py- px-4 font-sans selection:bg-orange-100 min-h-screen flex items-center">
+    <div className="bg-white px-4 selection:bg-orange-100 min-h-screen flex items-center">
       <div className="max-w-6xl mx-auto w-full">
         {/* Header */}
-        <div className="text-center mb-24">
-          <p className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.2em] mb-4">
+        <div className="text-center mb-2">
+          <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">
             INTEGRATED INTELLIGENCE
           </p>
-          <h2 className="text-5xl md:text-6xl font-semibold text-gray-900 mb-6 tracking-tight">
+          <h2 className="text-5xl md:text-6xl font-medium text-gray-900 mb-6 tracking-tight">
             From Data to Opportunities
           </h2>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed">
@@ -49,10 +49,10 @@ export default function IntelligenceSection() {
                   </span>
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-[15px] font-bold text-gray-900 leading-tight">
+                  <h4 className="text-base font-bold text-gray-900 leading-tight">
                     {source.name}
                   </h4>
-                  <p className="text-[13px] text-gray-400">{source.sub}</p>
+                  <p className="text-xs text-gray-400">{source.sub}</p>
                 </div>
               </div>
             ))}
@@ -117,7 +117,7 @@ export default function IntelligenceSection() {
               <h3 className="text-3xl font-bold text-gray-900 mb-1 tracking-tight">
                 Deep Analysis
               </h3>
-              <p className="text-[10px] font-extrabold text-gray-400 uppercase tracking-[0.2em]">
+              <p className="text-xs font-extrabold text-gray-400 uppercase tracking-widest">
                 AI-POWERED PROCESSING
               </p>
             </div>
@@ -137,14 +137,16 @@ export default function IntelligenceSection() {
                 </h3>
               </div>
 
-              <p className="text-[14px] font-black text-orange-600 uppercase tracking-[0.15em] mb-4">
-                FROM JOB POSTINGS
+              <p className="text-sm font-black text-orange-600 uppercase tracking-widest mb-4">
+                What We Found
               </p>
-
-              <p className="text-[15px] text-gray-500 leading-relaxed">
+              <h3 className="text-3xl font-bold text-gray-900 mb-4">
+                Market Gap Detected
+              </h3>
+              <p className="text-sm text-gray-500 leading-relaxed">
                 Discover what businesses are actively hiring for, revealing real
                 pain points they're{" "}
-                <span className="text-gray-900 font-semibold underline decoration-orange-200 decoration-4 underline-offset-4">
+                <span className="text-gray-900 font-medium underline decoration-orange-200 decoration-4 underline-offset-4">
                   willing to pay
                 </span>{" "}
                 to solve.

@@ -70,7 +70,7 @@ export default function MarketIntelligence() {
         {/* Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Left Side - Market Analysis */}
-          <div className="lg:col-span-2 bg-gradient-to-br from-orange-50 to-pink-50 rounded-2xl p-8 border border-gray-200">
+          <div className="lg:col-span-2 bg-gradient-to-br from-orange-50 to-white rounded-2xl p-8 border border-gray-200">
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-10 h-10 bg-black rounded-full flex items-center justify-center">
                 <PieChart className="w-6 h-6 text-white" />
@@ -132,7 +132,7 @@ export default function MarketIntelligence() {
           <div className="bg-zinc-800 rounded-2xl p-8 text-white">
             <div className="grid grid-cols-2 gap-x-8 py-16 gap-y-12">
               <div>
-                <div className="text-5xl font-mono mb-2">350+</div>
+                <div className="text-5xl mb-2">350+</div>
                 <div className="text-xs text-gray-400 uppercase tracking-wide leading-tight">
                   SOFTWARE
                   <br />
@@ -141,7 +141,7 @@ export default function MarketIntelligence() {
               </div>
 
               <div>
-                <div className="text-5xl font-mono mb-2">800+</div>
+                <div className="text-5xl mb-2">800+</div>
                 <div className="text-xs text-gray-400 uppercase tracking-wide leading-tight">
                   COMPANIES
                   <br />
@@ -150,7 +150,7 @@ export default function MarketIntelligence() {
               </div>
 
               <div>
-                <div className="text-5xl font-mono mb-2">850K+</div>
+                <div className="text-5xl mb-2">850K+</div>
                 <div className="text-xs text-gray-400 uppercase tracking-wide leading-tight">
                   NEGATIVE REVIEWS
                 </div>

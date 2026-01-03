@@ -11,10 +11,10 @@ export default function FAQ() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16">
         {/* LEFT */}
         <div>
-          <p className="text-[11px] font-semibold tracking-[0.2em] text-gray-400 mb-4">
+          <p className="text-xs font-medium tracking-widest text-gray-400 mb-4">
             FAQ
           </p>
-          <h2 className="text-4xl md:text-5xl font-semibold tracking-tight leading-tight">
+          <h2 className="text-4xl md:text-5xl font-medium tracking-tight leading-tight">
             Frequently Asked <br /> Questions
           </h2>
         </div>

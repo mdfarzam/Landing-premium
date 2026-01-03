@@ -2,15 +2,15 @@ import React from "react";
 
 export default function CTA() {
   return (
-    <div className="bg-white font-sans text-gray-900 selection:bg-orange-100">
+    <div className="bg-white text-gray-900 selection:bg-orange-100">
       {/* SECTION 2: CTA Section */}
       <section className="py-32 px-6 text-center">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.2em] mb-6">
+          <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">
             Ready to get started?
           </p>
 
-          <h2 className="text-6xl md:text-7xl font-semibold tracking-tight text-gray-900 mb-8 ">
+          <h2 className="text-6xl md:text-7xl font-medium tracking-tight text-gray-900 mb-8 ">
             Start Building Something People Actually Want.
           </h2>
 
@@ -20,11 +20,11 @@ export default function CTA() {
           </p>
 
           <div className="flex justify-center items-center gap-6">
-            <button className="bg-black text-white px-10 py-4 rounded-full font-semibold flex items-center gap-3 hover:bg-gray-800 transition-all shadow-lg group">
+            <button className="bg-black text-white px-10 py-4 rounded-full font-medium flex items-center gap-3 hover:bg-gray-800 transition-all shadow-lg group">
               Start Now
             </button>
 
-            <button className="text-sm font-bold text-gray-400 flex items-center gap-2 hover:text-gray-600 transition-colors">
+            <button className="text-sm underline text-gray-400 flex items-center gap-2 hover:text-gray-600 transition-colors">
               See Live Data
             </button>
           </div>
