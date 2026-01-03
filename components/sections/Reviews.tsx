@@ -85,7 +85,7 @@ export default function CustomerReviews() {
                 <button
                   key={index}
                   onClick={() => setCurrentIndex(index)}
-                  className={`h-1 rounded-full transition-all ${
+                  className={`h-1 rounded-full transition-all cursor-pointer ${
                     index === currentIndex
                       ? "w-8 bg-black"
                       : "w-6 bg-gray-300 hover:bg-gray-400"
@@ -99,14 +99,14 @@ export default function CustomerReviews() {
             <div className="flex space-x-2">
               <button
                 onClick={prevReview}
-                className="w-10 h-10 border border-gray-300 rounded-lg flex items-center justify-center hover:bg-gray-50 transition-colors"
+                className="w-10 h-10 border border-gray-300 rounded-lg flex items-center justify-center hover:bg-gray-50 transition-colors cursor-pointer"
                 aria-label="Previous review"
               >
                 <ChevronLeft className="w-5 h-5 text-gray-700" />
               </button>
               <button
                 onClick={nextReview}
-                className="w-10 h-10 border border-gray-300 rounded-lg flex items-center justify-center hover:bg-gray-50 transition-colors"
+                className="w-10 h-10 border border-gray-300 rounded-lg flex items-center justify-center hover:bg-gray-50 transition-colors cursor-pointer"
                 aria-label="Next review"
               >
                 <ChevronRight className="w-5 h-5 text-gray-700" />

@@ -29,7 +29,7 @@ export default function Features() {
         {/* Features Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {/* Feature 1: App Store Intelligence */}
-          <div className="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow flex flex-col h-full">
+          <div className="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow flex flex-col h-full cursor-pointer group">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-9 h-9 bg-black rounded-lg flex items-center justify-center">
                 <AppWindow className="w-5 h-5 text-white" />
@@ -54,7 +54,7 @@ export default function Features() {
           </div>
 
           {/* Feature 2: G2, Upwork & Capterra Analysis */}
-          <div className="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow flex flex-col h-full">
+          <div className="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow flex flex-col h-full cursor-pointer group">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-9 h-9 bg-black rounded-lg flex items-center justify-center">
                 <PieChart className="w-5 h-5 text-white" />
@@ -82,7 +82,7 @@ export default function Features() {
           </div>
 
           {/* Feature 3: Reddit Research Analysis */}
-          <div className="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow flex flex-col h-full">
+          <div className="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow flex flex-col h-full cursor-pointer group">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-9 h-9 bg-black rounded-lg flex items-center justify-center">
                 <MessageSquare className="w-5 h-5 text-white" />

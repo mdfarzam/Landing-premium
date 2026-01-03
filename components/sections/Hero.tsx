@@ -5,13 +5,13 @@ export default function Hero() {
     <div className="min-h-screen bg-gradient-to-b from-orange-100 via-white to-white">
       {/* Navigation */}
       <nav className="flex items-center justify-between px-4 py-3 max-w-6xl mx-auto">
-        <div className="flex items-center space-x-1.5">
+        <div className="flex items-center space-x-1.5 cursor-pointer">
           <div className="w-6 h-6 bg-gradient-to-br from-orange-400 to-pink-500 rounded-lg transform rotate-12"></div>
           <span className="text-base font-bold text-gray-900">MarketVault</span>
         </div>
 
         <div className="hidden md:flex items-center space-x-6">
-          <button className="text-sm text-gray-700 hover:text-gray-900 flex items-center space-x-1">
+          <button className="text-sm text-gray-700 hover:text-gray-900 flex items-center space-x-1 cursor-pointer">
             <span>Features</span>
           </button>
           <a href="#" className="text-sm text-gray-700 hover:text-gray-900">
@@ -35,10 +35,10 @@ export default function Hero() {
         </div>
 
         <div className="flex items-center space-x-3">
-          <button className="text-sm text-gray-700 hover:text-gray-900">
+          <button className="text-sm text-gray-700 hover:text-gray-900 cursor-pointer">
             Log in
           </button>
-          <button className="bg-black text-white px-4 py-1.5 rounded-full hover:bg-gray-800 transition-colors flex items-center space-x-1.5 text-sm">
+          <button className="bg-black text-white px-4 py-1.5 rounded-full hover:bg-gray-800 transition-colors flex items-center space-x-1.5 text-sm cursor-pointer">
             <span>Sign up</span>
           </button>
         </div>
@@ -70,11 +70,11 @@ export default function Hero() {
         </p>
 
         <div className="flex justify-center items-center gap-3">
-          <button className="bg-black text-white px-6 py-2.5 rounded-full hover:bg-gray-800 transition-colors text-sm font-medium flex items-center space-x-1.5">
+          <button className="bg-black text-white px-6 py-2.5 rounded-full hover:bg-gray-800 transition-colors text-sm font-medium flex items-center space-x-1.5 cursor-pointer">
             <span>Find Proven Problems</span>
           </button>
 
-          <button className="text-sm text-gray-700 hover:text-gray-900 flex items-center space-x-1.5 underline">
+          <button className="text-sm text-gray-700 hover:text-gray-900 flex items-center space-x-1.5 underline cursor-pointer">
             <span>Read Our Manifesto</span>
           </button>
         </div>

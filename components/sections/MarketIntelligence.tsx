@@ -21,7 +21,7 @@ export default function MarketIntelligence() {
           <p className="text-xs text-gray-500 uppercase tracking-wider mb-3">
             MARKET INTELLIGENCE
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+          <h2 className="text-3xl md:text-4xl  text-gray-900 mb-8">
             Transform Negative Feedback
             <br />
             Into Winning Product Ideas
@@ -31,7 +31,7 @@ export default function MarketIntelligence() {
           <div className="flex justify-center items-center gap-2 mb-12">
             <button
               onClick={() => setActiveTab("g2")}
-              className={`flex items-center space-x-2 px-6 py-2.5 rounded-lg font-medium transition-colors ${
+              className={`flex items-center space-x-2 px-6 py-2.5 rounded-lg font-medium transition-colors cursor-pointer ${
                 activeTab === "g2"
                   ? "bg-black text-white"
                   : "bg-white border border-gray-300 text-gray-700 hover:bg-gray-50"
@@ -43,7 +43,7 @@ export default function MarketIntelligence() {
 
             <button
               onClick={() => setActiveTab("capterra")}
-              className={`flex items-center space-x-2 px-6 py-2.5 rounded-lg font-medium transition-colors ${
+              className={`flex items-center space-x-2 px-6 py-2.5 rounded-lg font-medium transition-colors cursor-pointer ${
                 activeTab === "capterra"
                   ? "bg-black text-white"
                   : "bg-white border border-gray-300 text-gray-700 hover:bg-gray-50"
@@ -55,7 +55,7 @@ export default function MarketIntelligence() {
 
             <button
               onClick={() => setActiveTab("upwork")}
-              className={`flex items-center space-x-2 px-6 py-2.5 rounded-lg font-medium transition-colors ${
+              className={`flex items-center space-x-2 px-6 py-2.5 rounded-lg font-medium transition-colors cursor-pointer ${
                 activeTab === "upwork"
                   ? "bg-black text-white"
                   : "bg-white border border-gray-300 text-gray-700 hover:bg-gray-50"
@@ -87,7 +87,7 @@ export default function MarketIntelligence() {
 
             {/* Feature Cards */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="bg-white rounded-xl p-5 border border-gray-200">
+              <div className="bg-white rounded-xl p-5 border border-gray-200 cursor-pointer group hover:shadow-md transition-shadow">
                 <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center mb-4">
                   <BarChart className="w-6 h-6 text-white" />
                 </div>
@@ -100,7 +100,7 @@ export default function MarketIntelligence() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl p-5 border border-gray-200">
+              <div className="bg-white rounded-xl p-5 border border-gray-200 cursor-pointer group hover:shadow-md transition-shadow">
                 <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center mb-4">
                   <AlertCircle className="w-6 h-6 text-white" />
                 </div>
@@ -113,7 +113,7 @@ export default function MarketIntelligence() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl p-5 border border-gray-200">
+              <div className="bg-white rounded-xl p-5 border border-gray-200 cursor-pointer group hover:shadow-md transition-shadow">
                 <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center mb-4">
                   <CheckCircle className="w-6 h-6 text-white" />
                 </div>

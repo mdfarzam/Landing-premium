@@ -14,7 +14,7 @@ export default function IntelligenceSection() {
       <div className="max-w-6xl mx-auto w-full">
         {/* Header */}
         <div className="text-center mb-2">
-          <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">
+          <p className="text-xs  text-gray-400 uppercase tracking-widest mb-4">
             INTEGRATED INTELLIGENCE
           </p>
           <h2 className="text-5xl md:text-6xl font-medium text-gray-900 mb-6 tracking-tight">

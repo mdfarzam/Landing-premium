@@ -20,11 +20,11 @@ export default function CTA() {
           </p>
 
           <div className="flex justify-center items-center gap-6">
-            <button className="bg-black text-white px-10 py-4 rounded-full font-medium flex items-center gap-3 hover:bg-gray-800 transition-all shadow-lg group">
+            <button className="bg-black text-white px-10 py-4 rounded-full font-medium flex items-center gap-3 hover:bg-gray-800 transition-all shadow-lg group cursor-pointer">
               Start Now
             </button>
 
-            <button className="text-sm underline text-gray-400 flex items-center gap-2 hover:text-gray-600 transition-colors">
+            <button className="text-sm underline text-gray-400 flex items-center gap-2 hover:text-gray-600 transition-colors cursor-pointer">
               See Live Data
             </button>
           </div>
