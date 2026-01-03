@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Footer() {
   return (
     <footer className="border-t border-gray-100 bg-white">
@@ -7,7 +5,6 @@ export default function Footer() {
         {/* BRAND */}
         <div className="md:col-span-2 space-y-6">
           <div className="flex items-center gap-3">
-            {/* Replace with your logo */}
             <div className="w-10 h-10 bg-orange-500 rounded-xl flex items-center justify-center text-white font-bold">
               B
             </div>

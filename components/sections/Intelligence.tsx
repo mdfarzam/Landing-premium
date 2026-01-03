@@ -1,6 +1,6 @@
 import React from "react";
 
-const IntelligenceSection: React.FC = () => {
+export default function IntelligenceSection() {
   const sources = [
     { name: "G2", sub: "Negative Reviews", icon: "G" },
     { name: "Upwork", sub: "Job Postings", icon: "up", active: true },
@@ -155,6 +155,4 @@ const IntelligenceSection: React.FC = () => {
       </div>
     </div>
   );
-};
-
-export default IntelligenceSection;
+}

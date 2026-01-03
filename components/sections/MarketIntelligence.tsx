@@ -1,7 +1,14 @@
 "use client";
 import React, { useState } from "react";
+import {
+  PieChart,
+  BarChart,
+  AlertCircle,
+  CheckCircle,
+  Search,
+} from "lucide-react";
 
-const MarketIntelligence: React.FC = () => {
+export default function MarketIntelligence() {
   const [activeTab, setActiveTab] = useState<"g2" | "capterra" | "upwork">(
     "g2"
   );
@@ -30,27 +37,7 @@ const MarketIntelligence: React.FC = () => {
                   : "bg-white border border-gray-300 text-gray-700 hover:bg-gray-50"
               }`}
             >
-              <svg
-                className="w-5 h-5"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  cx="12"
-                  cy="12"
-                  r="10"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                />
-                <path
-                  d="M12 6V12"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                />
-                <circle cx="12" cy="16" r="1" fill="currentColor" />
-              </svg>
+              <PieChart className="w-5 h-5" />
               <span>G2</span>
             </button>
 
@@ -62,20 +49,7 @@ const MarketIntelligence: React.FC = () => {
                   : "bg-white border border-gray-300 text-gray-700 hover:bg-gray-50"
               }`}
             >
-              <svg
-                className="w-5 h-5"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M9 5L16 12L9 19"
-                  stroke="currentColor"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
+              <BarChart className="w-5 h-5" />
               <span>Capterra</span>
             </button>
 
@@ -99,27 +73,7 @@ const MarketIntelligence: React.FC = () => {
           <div className="lg:col-span-2 bg-gradient-to-br from-orange-50 to-pink-50 rounded-2xl p-8 border border-gray-200">
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-10 h-10 bg-black rounded-full flex items-center justify-center">
-                <svg
-                  className="w-6 h-6 text-white"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle
-                    cx="12"
-                    cy="12"
-                    r="10"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                  />
-                  <path
-                    d="M12 6V12"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                  />
-                  <circle cx="12" cy="16" r="1" fill="currentColor" />
-                </svg>
+                <PieChart className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900">
                 Market Analysis
@@ -135,34 +89,7 @@ const MarketIntelligence: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="bg-white rounded-xl p-5 border border-gray-200">
                 <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center mb-4">
-                  <svg
-                    className="w-6 h-6 text-white"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M21 7L13 15L9 11L3 17"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M21 7H15"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M21 7V13"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
+                  <BarChart className="w-6 h-6 text-white" />
                 </div>
                 <h4 className="text-sm font-bold text-gray-900 mb-2">
                   Overall Sentiment
@@ -175,33 +102,7 @@ const MarketIntelligence: React.FC = () => {
 
               <div className="bg-white rounded-xl p-5 border border-gray-200">
                 <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center mb-4">
-                  <svg
-                    className="w-6 h-6 text-white"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="9"
-                      cy="7"
-                      r="4"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                    />
-                    <circle
-                      cx="16"
-                      cy="17"
-                      r="4"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                    />
-                    <path
-                      d="M13 11L12 13M12 13L10 15M12 13L14 15"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                    />
-                  </svg>
+                  <AlertCircle className="w-6 h-6 text-white" />
                 </div>
                 <h4 className="text-sm font-bold text-gray-900 mb-2">
                   Key Pain Points
@@ -214,29 +115,7 @@ const MarketIntelligence: React.FC = () => {
 
               <div className="bg-white rounded-xl p-5 border border-gray-200">
                 <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center mb-4">
-                  <svg
-                    className="w-6 h-6 text-white"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M9 12L11 14L15 10"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <rect
-                      x="3"
-                      y="3"
-                      width="18"
-                      height="18"
-                      rx="2"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                    />
-                  </svg>
+                  <CheckCircle className="w-6 h-6 text-white" />
                 </div>
                 <h4 className="text-sm font-bold text-gray-900 mb-2">
                   Proposed Solution
@@ -291,6 +170,4 @@ const MarketIntelligence: React.FC = () => {
       </div>
     </div>
   );
-};
-
-export default MarketIntelligence;
+}

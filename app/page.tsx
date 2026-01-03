@@ -1,14 +1,14 @@
-import FAQ from "@/pages/Accordin";
-import CTA from "@/pages/CTA";
-import { Features } from "@/pages/Features";
-import Footer from "@/pages/Footer";
-import { Hero } from "@/pages/Hero";
-import IntelligenceSection from "@/pages/Intelligence";
-import MarketIntelligence from "@/pages/Intelligence2";
-import CustomerTestimonials from "@/pages/Projects";
-import CustomerReviews from "@/pages/Testimonial";
+import FAQ from "@/components/sections/FAQ";
+import CTA from "@/components/sections/CTA";
+import Features from "@/components/sections/Features";
+import Footer from "@/components/sections/Footer";
+import Hero from "@/components/sections/Hero";
+import IntelligenceSection from "@/components/sections/Intelligence";
+import MarketIntelligence from "@/components/sections/MarketIntelligence";
+import CustomerTestimonials from "@/components/sections/Testimonials";
+import CustomerReviews from "@/components/sections/Reviews";
 
-const page = () => {
+export default function Home() {
   return (
     <div>
       <Hero />
@@ -22,6 +22,4 @@ const page = () => {
       <Footer />
     </div>
   );
-};
-
-export default page;
+}

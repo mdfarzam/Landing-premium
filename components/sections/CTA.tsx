@@ -1,6 +1,6 @@
 import React from "react";
 
-const CTA: React.FC = () => {
+export default function CTA() {
   return (
     <div className="bg-white font-sans text-gray-900 selection:bg-orange-100">
       {/* SECTION 2: CTA Section */}
@@ -32,6 +32,4 @@ const CTA: React.FC = () => {
       </section>
     </div>
   );
-};
-
-export default CTA;
+}
